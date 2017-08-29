@@ -1,0 +1,49 @@
+# Basic
+title: Time's Blog
+subtitle: Be yourself.Everyone else is already taken.
+welcome_message: <a href="https://github.com/zhaofucheng1129" target="_blank">Something interesting</a>
+description: Record the footsteps of growth.
+# creator: <a href="http://onev.cat">@onevcat</a>
+
+url: "http://www.softdevblog.com/"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: 
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    # - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: SoftDevBlog
+    # duoshuo: 
+    
+# Social
+social:
+    # weibo: onevcat
+    github: zhaofucheng1129
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: zhaofucheng1129@gmail.com
+
+# Google Analytics
+ga:
+    id: UA-58158793-2
+    host: softdevblog.com
